@@ -10,7 +10,7 @@ namespace DesafioPOO.Models
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Aplicativo {nomeApp}, instalado com sucesso no seu {modelo}");
+            Console.WriteLine($"Aplicativo {nomeApp}, instalado no {modelo}, com sucesso!");
         }
     }
 }
